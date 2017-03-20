@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"keil-stm32f1xx_uart\stm32f1xx_hal_flash_ex.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_flash.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_tim_ex.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_dma.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_uart.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_rcc_ex.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_cortex.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_tim.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_gpio_ex.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_gpio.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_rcc.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_pwr.o"
+"keil-stm32f1xx_uart\system_stm32f1xx.o"
+"keil-stm32f1xx_uart\startup_stm32f103xb.o"
+"keil-stm32f1xx_uart\main.o"
+"keil-stm32f1xx_uart\stm32f1xx_hal_msp.o"
+"keil-stm32f1xx_uart\stm32f1xx_it.o"
+--library_type=microlib --strict --scatter "KEIL-STM32F1xx_UART\KEIL-STM32F1xx_UART.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KEIL-STM32F1xx_UART.map" -o KEIL-STM32F1xx_UART\KEIL-STM32F1xx_UART.axf
